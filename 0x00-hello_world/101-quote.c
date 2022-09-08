@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
+#include<string.h>
 /*
  * This file prints without usinf printf or puts functions
  */
