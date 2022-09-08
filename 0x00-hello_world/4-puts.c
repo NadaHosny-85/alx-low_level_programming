@@ -5,11 +5,16 @@
  *
  * Description: printing a line using puts function
  *
- * returns 0
+ */
+/**
+ * main - prints whats needed
+ *
+ * Return: 0 always
  */
 
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
+	/*return of function*/
 	return (0);
 }
