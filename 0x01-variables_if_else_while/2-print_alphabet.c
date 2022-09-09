@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 /*
  * Description: This project prints alphabet
  * from a to z in lower case using putchar
