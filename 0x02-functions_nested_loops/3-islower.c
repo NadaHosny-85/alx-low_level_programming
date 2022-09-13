@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include "main.h"
 /*
  * Description: returns 0 or 1
