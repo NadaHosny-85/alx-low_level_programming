@@ -1,12 +1,14 @@
 #include "main.h"
 /*
- * Description: checks if alphabet
- * if a letter lower or upper case
+ *Description: checks if alphabet
+ *is a lower case letter or
+ *upper case letter
  */
 /**
- * _isalpha: checks letter
+ * _isalpha - checks if char is a letter
+ * lower or upper case
  *
- * @c: returned from func result
+ * @c: takes one parameter
  *
  * Return: 1 if letter
  * 0 if not
