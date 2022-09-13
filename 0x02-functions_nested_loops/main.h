@@ -42,6 +42,5 @@ void print_alphabet(void)
 		putchar(alpha);
 	}
 	putchar('\n');
-	return (0);
 }
 #endif
