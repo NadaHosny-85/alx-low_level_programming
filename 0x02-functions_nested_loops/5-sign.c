@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /*
  * description : checks num is positive
