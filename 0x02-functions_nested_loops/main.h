@@ -27,4 +27,21 @@ int PrintStr(void)
 	}
 	return (0);
 }
+
+/**
+ * print_alphabet - prints alphabets in lower case
+ *
+ * Return: always 0
+ */
+void print_alphabet(void)
+{
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		putchar(alpha);
+	}
+	putchar('\n');
+	return (0);
+}
 #endif
