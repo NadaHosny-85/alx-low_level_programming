@@ -1,7 +1,7 @@
+#include <stdio.h>
+#include <string.h>
 #ifndef MAIN_H
 #define MAIN_H
-#include <string.h>
-#include <stdio.h>
 /**
  * PrintStr - function prints a string
  * using putchar function
