@@ -6,27 +6,36 @@
  * using putchar
  */
 /**
- * PrintStr - printing the string
+ * main - contains function
  *
  * Return: always 0
  */
-char PrintStr(void)
+int main(void)
 {
-	char str[] = "_putchar";
-
-	unsigned int i;
-
-	for (i = 0; i <= strlen(str); i++)
+	/**
+	 * PrintStr - prints string using putchar
+	 *
+	 * Return: always 0
+	 */
+	char PrintStr(void)
 	{
-		if (str[i] == '\0')
+		char str[] = "_putchar";
+
+		unsigned int i;
+
+		for (i = 0; i <= strlen(str); i++)
 		{
-			putchar('\n');
-			break;
+			if (str[i] == '\0')
+			{
+				putchar('\n');
+				break;
+			}
+			else
+			{
+				putchar(str[i])
+			}
 		}
-		else
-		{
-			putchar(str[i]);
-		}
+		return (0);
 	}
 	return (0);
 }
