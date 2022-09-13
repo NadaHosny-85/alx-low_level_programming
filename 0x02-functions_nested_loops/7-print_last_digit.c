@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /*
  * description - this program extracts
@@ -20,6 +21,6 @@ int print_last_digit(int n)
 	{
 		l_digit = (-1) * l_digit;
 	}
-	putchar(l_digit);
+	_putchar(l_digit);
 	return (l_digit);
 }
