@@ -25,7 +25,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(str[i])
+			putchar(str[i]);
 		}
 	}
 	return (0);
