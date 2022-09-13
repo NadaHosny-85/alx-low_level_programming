@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /*
  * Description: this program prints a string
  * using putchar
@@ -10,21 +11,6 @@
  */
 int main(void)
 {
-	char str[] = "_putchar";
-
-	int i;
-
-	for (i = 0; i <= strlen(str); i++)
-	{
-		if (str[i] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		else
-		{
-			putchar(str[i])
-		}
-	}
+	PrintStr();
 	return (0);
 }
