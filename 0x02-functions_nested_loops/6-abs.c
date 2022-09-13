@@ -7,14 +7,12 @@
  * _abs - function that returns
  * absolute value of integer
  *
- * @int: integer
+ * @n: integer
  *
  * Return: integer value of number
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 	{
 		n = (-1) * n;
