@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /*
  * Description: this program prints a string
  * using putchar
