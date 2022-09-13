@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 /*
  * Description: checks if alphabet
  * if a letter lower or upper case
