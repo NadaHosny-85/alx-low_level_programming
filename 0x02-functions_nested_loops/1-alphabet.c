@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /*
@@ -5,12 +6,18 @@
  * that prints lower case letters
  */
 /**
- * main - contains function call
+ * print_alphabet - contains function call
  *
  * Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		putchar(alpha);
+	}
+	putchar('\n');
 	return (0);
 }
