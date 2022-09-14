@@ -23,6 +23,7 @@ void times_table(void)
 			res = i * j;
 			if (res == 0)
 			{
+				putchar(' ');
 				putchar('0');
 				putchar(',');
 				putchar(' ');
