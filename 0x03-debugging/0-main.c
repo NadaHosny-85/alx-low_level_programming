@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include "main.h"
 /*
  * description - this file
