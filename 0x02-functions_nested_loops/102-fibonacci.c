@@ -12,13 +12,13 @@ int main(void)
 {
 	int i;
 
-	int fibo_1 = 1;
+	long int fibo_1 = 1;
 
-	int fibo_2 = 1;
+	long int fibo_2 = 1;
 
-	int next_fibo = fibo_1 + fibo_2;
+	long int next_fibo = fibo_1 + fibo_2;
 
-	printf("%d, %d, ", fibo_2, next_fibo);
+	printf("%ld, %ld, ", fibo_2, next_fibo);
 	for (i = 3; i <= 50; i++)
 	{
 		fibo_1 = fibo_2;
@@ -29,11 +29,11 @@ int main(void)
 
 		if (i == 50)
 		{
-			printf("%d\n", next_fibo);
+			printf("%ld\n", next_fibo);
 		}
 		else
 		{
-			printf("%d, ", next_fibo);
+			printf("%ld, ", next_fibo);
 		}
 	}
 	return (0);
