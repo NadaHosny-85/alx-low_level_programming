@@ -27,7 +27,14 @@ int main(void)
 
 		next_fibo = fibo_1 + fibo_2;
 
-		printf("%d, ", next_fibo);
+		if (i == 50)
+		{
+			printf("%d\n", next_fibo);
+		}
+		else
+		{
+			printf("%d, ", next_fibo);
+		}
 	}
 	return (0);
 }
