@@ -20,20 +20,20 @@ void jack_bauer(void)
 	{
 		if (hr >= 0 && hr <= 9)
 		{
-			putchar("0");
-			putchar(hr);
-			putchar(":");
+			putchar('0');
+			putchar(hr + '0');
+			putchar(':' + '0');
 		}
 		else
 		{
-			putchar(hr);
-			putchar(":");
+			putchar(hr + '0');
+			putchar(':' + '0');
 		}
 		for (min = 0; min < 60; min++)
 		{
 			if (min >= 0 && min <= 9)
 			{
-				putchar("0");
+				putchar('0');
 				putchar(min);
 				putchar('\n');
 			}
