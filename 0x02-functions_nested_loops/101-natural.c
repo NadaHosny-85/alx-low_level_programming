@@ -7,9 +7,9 @@
  * main - function prints sum of
  * multiples of 3 and 5
  *
- * Return: doesnt return anything
+ * Return: sum
  */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -27,4 +27,5 @@ void main(void)
 		}
 	}
 	printf("%d\n", sum);
+	return (sum);
 }
