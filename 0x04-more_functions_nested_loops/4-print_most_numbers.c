@@ -24,7 +24,7 @@ void print_most_numbers(void)
 		}
 		else
 		{
-			putchar(i);
+			putchar((i % 10) + '0');
 		}
 	}
 	putchar('\n');
