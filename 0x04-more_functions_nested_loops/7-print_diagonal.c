@@ -6,7 +6,7 @@
  *
  */
 /**
- * print_line - function prints
+ * print_diagonal - function prints
  * diagonal straight line
  *
  * @n: parameter
