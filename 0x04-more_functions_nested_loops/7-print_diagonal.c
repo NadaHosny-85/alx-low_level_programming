@@ -14,7 +14,7 @@
  *
  * Return: 0
  */
-vod print_line(int n)
+void print_line(int n)
 {
 	if (n == 0 || n < 0)
 	{
