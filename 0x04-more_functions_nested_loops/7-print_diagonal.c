@@ -14,7 +14,7 @@
  *
  * Return: 0
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	if (n == 0 || n < 0)
 	{
