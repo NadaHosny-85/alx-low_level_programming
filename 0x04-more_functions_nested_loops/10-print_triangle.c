@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mainh"
+#include "main.h"
 /*
  * description - program prints
  * triangles
