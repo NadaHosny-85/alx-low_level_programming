@@ -31,7 +31,9 @@ void rev_string(char *s)
 	{
 		end_s++;
 	}
-	while (*s != '\0')
+	int j;
+
+	for (j = 0; j < l / 2; j++)
 	{
 		tmp = *end_s;
 		*end_s = *s;
