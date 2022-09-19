@@ -29,7 +29,7 @@ void print_rev(char *s)
 		rev_s++;
 	}
 
-	while (s != '\0')
+	while (*s != '\0')
 	{
 		putchar(*rev_s);
 		rev_s--;
