@@ -19,12 +19,22 @@ void print_rev(char *s)
 
 	int i;
 
-	char *begin_s;
-
-	char *end_s;
-
-	char c;
+	char *rev_s;
 
 	l = strlen(s);
-	begin_s = s;
+
+	rev_s = s;
+	for (i = 0; i < l - 1; i++)
+	{
+		rev_s++;
+	}
+
+	while (s != '\0')
+	{
+		putchar(*rev_s);
+		rev_s--;
+		s++;
+	}
+	putchar('\n');
+}
 
