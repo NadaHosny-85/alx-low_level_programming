@@ -19,6 +19,8 @@ void rev_string(char *s)
 
 	int i;
 
+	int j;
+
 	l = strlen(s);
 
 	char *end_s;
@@ -31,8 +33,6 @@ void rev_string(char *s)
 	{
 		end_s++;
 	}
-	int j;
-
 	for (j = 0; j < l / 2; j++)
 	{
 		tmp = *end_s;
