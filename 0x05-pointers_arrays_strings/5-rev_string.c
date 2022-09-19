@@ -21,12 +21,11 @@ void rev_string(char *s)
 
 	int j;
 
-	l = strlen(s);
-
 	char *end_s;
 
 	char tmp;
 
+	l = strlen(s);
 	end_s = s;
 
 	for (i = 0; i < l - 1; i++)
