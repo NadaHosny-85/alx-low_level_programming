@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <<string.h>
+#include <string.h>
 #include "main.h"
 
 /*
@@ -22,17 +22,17 @@ char *_strcat(char *dest, char *src)
 
 	int i = 0;
 
-	while (*dest[end_dest] != '\0')
+	while (dest[end_dest] != '\0')
 	{
 		end_dest++;
 	}
-	while (*src[i] != '\0')
+	while (src[i] != '\0')
 	{
 		dest[end_dest] = src[i];
 		end_dest++;
 		i++;
 	}
-	return (*dest);
+	return (dest);
 }
 
 
