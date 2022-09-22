@@ -14,7 +14,7 @@
  *
  * @src: second parameter
  *
- * Return : the concatenated string
+ * Return: the concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
