@@ -24,9 +24,11 @@ char *leet(char *str)
 
 	int j;
 
+	int size = sizeof(chars) / sizeof(chars[0]);
+
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; chars[j] != '\0'; j++)
+		for (j = 0; j < size; j++)
 		{
 			if (str[i] == chars[j])
 			{
