@@ -34,10 +34,6 @@ char *leet(char *str)
 			{
 				str[i] = encoded_chars[j];
 			}
-			else
-			{
-				continue;
-			}
 		}
 	}
 	return (str);
