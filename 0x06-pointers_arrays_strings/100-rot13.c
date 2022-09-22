@@ -8,8 +8,8 @@
  * *rot13 - function shifts every letter
  * of the given string by 13 letters
  *
- * @str: first parameter
- * 
+ * @str: first paramete
+ *
  * Return: encoded string
  */
 char *rot13(char *str)
@@ -20,7 +20,7 @@ char *rot13(char *str)
 		'o', 'O', 'p', 'P', 'q', 'Q', 'r', 'R', 's', 'S',
 		't', 'T', 'u', 'U', 'v', 'V', 'w', 'W', 'x', 'X',
 		'y', 'Y', 'z', 'Z'};
-	
+
 	char encoded_alpha[] = {'n', 'N', 'o', 'O', 'p', 'P',
 		'q', 'Q', 'r', 'R', 's', 'S', 't', 'T', 'u', 'U',
 		'v', 'V', 'w', 'W', 'x', 'X', 'y', 'Y', 'z', 'Z',
