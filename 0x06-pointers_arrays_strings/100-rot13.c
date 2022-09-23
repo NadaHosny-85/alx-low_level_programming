@@ -41,6 +41,7 @@ char *rot13(char *str)
 			if (str[i] == alpha[j])
 			{
 				str[i] = encoded_alpha[j];
+				break;
 			}
 		}
 	}
