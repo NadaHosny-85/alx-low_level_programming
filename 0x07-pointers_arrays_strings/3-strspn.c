@@ -31,6 +31,10 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		i = 0;
 		s++;
+		if (*s == ' ')
+		{
+			break;
+		}
 	}
 	return (count);
 }
