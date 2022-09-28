@@ -22,4 +22,8 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s);
 		putchar(*s);
 	}
+	else if (*s == '\0')
+	{
+		putchar('\n');
+	}
 }
