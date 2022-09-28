@@ -16,10 +16,10 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int l;
-
-	l = strlen(s);
-
-	int i;
-
-	if 
+	if (*s != '\0')
+	{
+		s++;
+		_print_rev_recursion(*s);
+		putchar(*s);
+	}
+}	
