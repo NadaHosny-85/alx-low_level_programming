@@ -18,6 +18,10 @@ int main(int argc, char *argv[])
 {
 	int res;
 
+	int arg1 = 0;
+
+	int arg2 = 0;
+
 	if ((argc - 1) != 2)
 	{
 		printf("Error\n");
@@ -25,7 +29,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		res = argv[1] * argv[2];
+		arg1 = atoi(argv[1]);
+		arg2 = atoi(argv[2]);
+		res = arg1 * arg2;
 		printf("%d\n", res);
 	}
 	return (0);
