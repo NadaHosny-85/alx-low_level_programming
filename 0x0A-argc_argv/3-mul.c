@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 /*
  * description - program prints
@@ -29,7 +30,6 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		(void)argc;
 		arg1 = atoi(argv[1]);
 		arg2 = atoi(argv[2]);
 		res = arg1 * arg2;
