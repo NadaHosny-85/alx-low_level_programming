@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
+
 /*
  * description - program
  * prints its name
