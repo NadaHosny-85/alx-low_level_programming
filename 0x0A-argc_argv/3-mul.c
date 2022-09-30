@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
 	else
 	{
 		res = argv[1] * argv[2];
-		(void)argc;
 		printf("%d\n", res);
 	}
 	return (0);
