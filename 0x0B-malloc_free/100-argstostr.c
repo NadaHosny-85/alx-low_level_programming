@@ -27,9 +27,7 @@ char *argstostr(int ac, char **av)
 	int y = 0;
 
 	if (ac == 0 || av == NULL)
-	{
-		return (NULL);
-	}
+	{return (NULL); }
 
 	for (j = 0; j < ac; j++)
 	{
