@@ -28,6 +28,10 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 	arr_2d = malloc(sizeof(int) * height);
+	if (arr_2d == 0)
+	{
+		return (NULL);
+	}
 	for (i = 0; i < height; i++)
 	{
 		arr_2d[i] = malloc(sizeof(int) * width);
