@@ -29,7 +29,7 @@ char *_strdup(char *str)
 	{
 		size++;
 	}
-	str_cpy = malloc(sizeof(char) * size);
+	str_cpy = malloc(sizeof(char) * size + 1);
 	if (str_cpy != NULL)
 	{
 		while (str[i] != '\0')
