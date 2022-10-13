@@ -6,7 +6,7 @@
  */
 /**
  * array_iterator - function iterates
- * through array and performs action 
+ * through array and performs action
  *
  * @array: first arr parameter
  *
@@ -19,7 +19,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (array != NULL && action != NULL)
 	{
-		while (size!= 0)
+		while (size != 0)
 		{
 			action(*array);
 			array++;
