@@ -35,7 +35,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		i++;
 	}
-	duplicated_str = stdup(str);
+	duplicated_str = strdup(str);
 	if (str == NULL)
 	{
 		free(new_node);
