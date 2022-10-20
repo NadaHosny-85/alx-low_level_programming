@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.>
+#include <stdlib.h>
 #include <string.h>
 #include "main.h"
 
@@ -26,4 +26,3 @@ size_t list_len(const list_t *h)
 	}
 	return (elem_cnt);
 }
-
