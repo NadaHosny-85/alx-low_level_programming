@@ -14,8 +14,8 @@
 struct sin_lists
 {
 	char *str;
-	unsigned int str_len;
-	struct sin_lists *next_node;
+	unsigned int len;
+	struct sin_lists *next;
 };
 typedef struct sin_lists list_t;
 size_t print_list(const list_t *h);
