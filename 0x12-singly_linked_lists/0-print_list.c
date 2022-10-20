@@ -28,7 +28,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[0] (nil)\n");
 		}
-		h = h[next];
+		h = h[next_node];
 	}
 	return (node_elems);
 }
