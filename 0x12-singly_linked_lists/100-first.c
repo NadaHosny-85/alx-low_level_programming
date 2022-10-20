@@ -5,7 +5,7 @@
  * before the main
  * added the constructor
  */
-void before_main(void) __attribute__((constructor)); 
+void before_main(void) __attribute__((constructor));
 /**
  * before_main - function executes before
  * main to print a sentence
