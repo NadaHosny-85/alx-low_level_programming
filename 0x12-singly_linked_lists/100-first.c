@@ -3,7 +3,7 @@
  * description - program will execute
  * before main
  */
-void before_main() __attribute__((constructor));
+void before_main(void) __attribute__((constructor));
 
 /**
  * before_main - function executes before
