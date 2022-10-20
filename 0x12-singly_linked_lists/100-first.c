@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "lists.h"
-/*
- * description - program will execute
- * before main
- */
-void before_main(void) __attribute__((constructor));
 
+void before_main(void) __attribute__((constructor));
+/*
+ * description - program executes this function
+ * before the main
+ * added the constructor
+ */
 /**
  * before_main - function executes before
  * main to print a sentence
