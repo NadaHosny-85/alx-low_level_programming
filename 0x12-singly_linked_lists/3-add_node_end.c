@@ -22,9 +22,9 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	int i = 0;
 
-	list_t = *new_node;
+	list_t *new_node;
 
-	list_t = *last_node;
+	list_t *last_node;
 
 	new_node = malloc(sizeof(list_t));
 	if (new_node == NULL)
