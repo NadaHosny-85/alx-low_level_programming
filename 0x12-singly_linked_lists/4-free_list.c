@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
+#include "lists.h"
 /*
  * description - program frees
  * a linked llist
@@ -15,13 +15,13 @@
  */
 void free_list(list_t *head)
 {
-	list_t *tmp;
+	list_t *tmp_node;
 
 	while (head != NULL)
 	{
-		tmp = head->next;
+		tmp_node = head->next;
 		free(head->str);
 		free(head);
-		head = tmp;
+		head = tmp_node;
 	}
 }
