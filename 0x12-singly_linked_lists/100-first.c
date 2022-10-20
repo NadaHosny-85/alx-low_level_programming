@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "lists.h"
 /*
  * description - program will execute
  * before main
