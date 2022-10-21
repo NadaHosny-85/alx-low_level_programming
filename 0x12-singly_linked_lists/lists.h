@@ -7,9 +7,9 @@
  *
  * @str: the string
  *
- * @str_len: string length
+ * @len: string length
  *
- * @next_node: the pointer to next node
+ * @next: the pointer to next node
  */
 struct sin_lists
 {
