@@ -5,7 +5,8 @@
  * descrition - program prints
  * all elements of a singly linked
  * list
- * 
+ */
+/**
  * print_listint - function takes
  * a singly linked list and prints it
  *
