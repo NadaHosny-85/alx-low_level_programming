@@ -1,4 +1,4 @@
-#include  <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
 /*
@@ -25,7 +25,7 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	while (head != NULL)
 	{
-		printf("[%p] %i\n",(void *)tmp_node, tmp_node->n);
+		printf("[%p] %i\n", (void *)tmp_node, tmp_node->n);
 		tmp_node = tmp_node->next;
 		i++;
 	}
