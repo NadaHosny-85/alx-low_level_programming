@@ -33,7 +33,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(tmp_node);
 		return (1);
 	}
-	while (node < (index - 1))
+	while (i < (index - 1))
 	{
 		if (tmp_node->next == NULL)
 		{
