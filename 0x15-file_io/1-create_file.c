@@ -37,7 +37,7 @@ int create_file(const char *filename, char *text_content)
 			i++;
 		}
 	}
-	o_file = open(filename, O_CREATE | O_WRONLY | O_TRUNC, 0600);
+	o_file = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 	w_file = write(o_file, text_content, i);
 	if (o_file == -1)
 	{
