@@ -16,7 +16,7 @@
  * read_textfile - function reads from
  * file and prints given letters
  *
- * @filname: first parameter
+ * @filename: first parameter
  * @letters: second parameter
  *
  * Return: 0 if failed
