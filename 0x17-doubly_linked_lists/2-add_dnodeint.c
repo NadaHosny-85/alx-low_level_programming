@@ -12,7 +12,7 @@
  * and adds a new node to the beginning
  * of the list
  *
- * @h: pointer to the head of the list
+ * @head: pointer to the head of the list
  * @n: node to be added
  *
  * Return: address of the new list
@@ -27,7 +27,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	{
 		return (NULL);
 	}
-	
 
 	new_node->data = n;
 	new_node->next = *head;
