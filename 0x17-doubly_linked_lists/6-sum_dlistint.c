@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "lists.h"
 /*
- * description - program sums all the 
+ * description - program sums all the
  * data in a list
  */
 /**
